@@ -1,3 +1,4 @@
+import React from 'react';
 import { Router, routes } from './router/index';
 
 
