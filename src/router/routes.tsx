@@ -1,6 +1,7 @@
 import React from "react";
 import { Navigate } from "react-router-dom";
 import LayoutAnt from "../components/ant-design/LayoutAnt";
+import Layout from "../components/material-ui/Layout/Layout";
 
 const routes = [
     {
@@ -14,7 +15,7 @@ const routes = [
     },
     {
         path: '/mui',
-        element: <> </>,
+        element: <Layout><>hola</></Layout>,
         children: [
         { path: '*', element: <Navigate to="/404" /> }
         ]   
